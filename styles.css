@@ -90,3 +90,17 @@ p {
     text-align: center;
     font-size: 30px
 }
+
+@media screen and (max-width: 540px) {
+    .gallery {
+        display: block;
+    }
+
+    .gallery-image {
+        height: 350px;
+    }
+
+    .lightbox-image  {
+        max-width: 450px
+    }
+}
